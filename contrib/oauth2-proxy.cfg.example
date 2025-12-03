@@ -106,3 +106,24 @@
 # cookie_refresh = ""
 # cookie_secure = true
 # cookie_httponly = true
+
+## Session Storage
+## Session store type can be "cookie" (default), "redis", or "http"
+# session_store_type = "cookie"
+
+## Redis Session Storage (requires session_store_type = "redis")
+# redis_connection_url = "redis://localhost:6379"
+# redis_password = ""
+# redis_username = ""
+## For Redis Sentinel:
+# redis_use_sentinel = true
+# redis_sentinel_master_name = "mymaster"
+# redis_sentinel_connection_urls = ["redis://sentinel1:26379", "redis://sentinel2:26379"]
+## For Redis Cluster:
+# redis_use_cluster = true
+# redis_cluster_connection_urls = ["redis://cluster1:6379", "redis://cluster2:6379"]
+
+## HTTP Session Storage (requires session_store_type = "http")
+## See https://oauth2-proxy.github.io/oauth2-proxy/docs/configuration/session_storage#http-storage
+# http_store_base_url = "https://session-store.example.com"
+# http_store_api_key = "your-secret-api-key"
