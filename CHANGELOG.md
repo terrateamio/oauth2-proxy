@@ -8,6 +8,8 @@
 
 ## Changes since v7.15.4
 
+- [#XXXX](https://github.com/oauth2-proxy/oauth2-proxy/pull/XXXX) feat: add HTTP session store backend (@joshpollara)
+
 # V7.15.4
 
 ## Release Highlights
